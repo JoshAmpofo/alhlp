@@ -77,7 +77,8 @@ Write a Python script that prints “The Zen of Python”, by TimPeters, followe
 · Your script should be maximum 98 characters long (please check with <wc -m 9-easter_egg.py>)
 
 ### 10. Linked list cycle
-<Technical interview preparation:>
+
+Technical interview preparation:
 	· You are not allowed to google anything
 	· Whiteboard first
 	· This task and all future technical interview prep tasks will 		include checks for the efficiency of your solution, i.e. is 	      your solution’s runtime fast enough, does your solution requ	    ire extra memory usage / mallocs, etc.
