@@ -1,3 +1,6 @@
-# Python Programming
+# High-Level Programming modules
 
-Python is an easy to learn, powerful programming language. It hsa efficient high-level data structures and a simple but effective approach to object-oriented programming. Python's elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas and on most platforms.
+This repo contains all the projects that would be done with higher-level
+programmes such as python, as part of the second sprint of the ALX Software engineering program.
+
+## Let's have fun with higher level programs!
