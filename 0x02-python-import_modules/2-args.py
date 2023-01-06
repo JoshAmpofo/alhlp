@@ -12,5 +12,5 @@ if __name__ == "__main__":
         print("{} arguments:".format(num_args))
 
     # printing arguments
-    for pos, args in enumerate(sys.argv[1:]):
-        print("{}: {}".format(pos+1, args))
+    for args in range(num_args):
+        print("{}: {}".format(args + 1, sys.argv[args + 1]))
