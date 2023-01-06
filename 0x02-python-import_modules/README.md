@@ -1,7 +1,7 @@
 # Working with modules and command line arguments
 
 ## Resources
-Read more here: -[Python Documentation](https://docs.python.org/3/tutorial/modules.html)
+Read more here: [Python Documentation](https://docs.python.org/3/tutorial/modules.html)
 
 ## Tasks
 
