@@ -8,14 +8,12 @@
  */
 int is_palindrome(listint_t **head)
 {
-	int i, length;
-	int *array;
+	int i, length, top;
+	int *stack;
 	listint_t *current;
 
 	if (*head == NULL)
-	{
 		return (1);
-	}
 
 	current = *head;
 	length = 0;
@@ -28,21 +26,22 @@ int is_palindrome(listint_t **head)
 
 	current = *head;
 
-	array = malloc(sizeof(int) * length);
-
-	for (i = 0; i < length; i++)
-	{
-		array[i] = current->n;
-		current = current->next;
-	}
+	stack = malloc(sizeof(int) * length);
+	top = -1;
 
 	for (i = 0; i < length / 2; i++)
 	{
-		if (array[i] != array[length - i - 1])
-		{
-			return (0);
-		}
+		stack[++top] = current->n;
+		current = current->next;
 	}
 
+	if (length % 2 != 0)
+		current = current->next;
+	for (i = 0; i < length / 2; i++)
+	{
+		if (stack[top--] != current->n)
+			return (0);
+		current = current->next;
+	}
 	return (1);
 }
