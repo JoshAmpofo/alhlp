@@ -14,5 +14,5 @@
 ## Resources
 - [Python Documentation on Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
 - [Python Documentation on Sets](https://docs.python.org/3/tutorial/datastructures.html#sets)
-- [Lambda, Filter, Reduca, Map](https://python-course.eu/advanced-python/lambda-filter-reduce-map.php)
+- [Lambda, Filter, Reduce, Map](https://python-course.eu/advanced-python/lambda-filter-reduce-map.php)
 - [More videos on Dictionaries and Sets](https://www.youtube.com/watch?v=1GAC6KQUPeg)
