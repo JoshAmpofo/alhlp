@@ -28,7 +28,7 @@ void print_python_list(PyObject *p)
 	}
 
 	printf("[*] Size of the Python List = %ld\n", size);
-	print("[*] Allocated = %ld\n", alloc);
+	printf("[*] Allocated = %ld\n", alloc);
 
 	for (i = 0; i < size; i++)
 	{
@@ -98,7 +98,7 @@ void print_python_float(PyObject *p)
 	}
 
 	buffer = PyOS_double_to_string(float_obj->ob_fval, 'r', 0,
-			Py_DISF_ADD_DOT_0, NULL);
+			Py_DTSF_ADD_DOT_0, NULL);
 	printf("  value: %s\n", buffer);
 	PyMem_Free(buffer);
 }
