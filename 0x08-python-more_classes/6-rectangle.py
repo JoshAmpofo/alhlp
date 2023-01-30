@@ -6,9 +6,10 @@ attributes of the geometrical figure
 
 
 class Rectangle():
+    """define a Rectangle"""
+
     number_of_instances = 0
 
-    """define a Rectangle"""
     def __init__(self, width=0, height=0):
         """initialize Rectangle
 
