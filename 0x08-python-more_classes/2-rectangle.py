@@ -14,8 +14,8 @@ class Rectangle():
             width(int): define the width dimension
             height(int): define height dimension
         """
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
@@ -69,4 +69,6 @@ class Rectangle():
 
     def perimeter(self):
         """return the perimeter of Rectangle"""
+        if self.__width == 0 or self.__height == 0:
+            return 0
         return (self.__height + self.__width) * 2
