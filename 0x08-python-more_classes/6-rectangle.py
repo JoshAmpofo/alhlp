@@ -18,6 +18,7 @@ class Rectangle():
         """
         self.width = width
         self.height = height
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
@@ -65,8 +66,6 @@ class Rectangle():
             raise ValueError("height must be >= 0")
         self.__height = value
 
-        Rectangle.number_of_instances += 1
-
     def area(self):
         """return the area of Rectangle"""
         return self.__height * self.__width
@@ -89,5 +88,4 @@ class Rectangle():
     def __del__(self):
         """delete an instance in Rectangle"""
         print("Bye rectangle...")
-
         Rectangle.number_of_instances -= 1
