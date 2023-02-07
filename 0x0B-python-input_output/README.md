@@ -8,7 +8,7 @@
 - How to read a file line by line
 - How to move the cursor in a file
 - How to make sure a file is closed after using it
-- What is and how to use the with statement
+- What is and how to use the `with` statement
 - What is `JSON`
 - What is serialization
 - What is deserialization
