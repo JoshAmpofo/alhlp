@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Creates the Pascals tirangle"""
+"""Creates the Pascals triangle"""
 
 
 def pascal_triangle(n):
