@@ -20,8 +20,8 @@ In this project, I reviewed everything about Python:
 Additionally I also learned about:
 
 - `*args` and `**kwargs`
-- `Serialization/Deserialization`
-- `JSON`
+- Serialization/Deserialization
+- JSON
 
 ## General Lessons learned
 
