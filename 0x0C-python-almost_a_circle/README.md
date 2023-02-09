@@ -2,9 +2,9 @@
 
 ## Background Context
 
-The AirBnB project is a big part of the Higher level curriculum. This project will help you be ready for it.
+This project is a precursor to the AirBnB project which is a big part of the Higher level curriculum.
 
-In this project, I reviewed everything about Python:
+In this project, I reviewed everything about I've learnt so far in Python such as:
 
 - Import
 - Exceptions
