@@ -94,7 +94,7 @@ class Rectangle(Base):
             [print("#", end="") for w in range(self.width)]
             print("")
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """Updates the Rectangle
 
         Args:
@@ -104,18 +104,24 @@ class Rectangle(Base):
             3rd arg (int): height attribute
             4th arg (int): x attribute
             5th arg (int): y attribute
-        This is a no-keyword-argument where argument order is important
+            kwargs (dict): assigns a key/value argument to attributes
+        *args is a 'no-keyword' argument where arg order is important
+        **kwargs is a 'key-worded argument' where arg order is not important
         """
         if args:
-            self.id = args[0]
-        if len(args) > 1:
-            self.width = args[1]
-        if len(args) > 2:
-            self.height = args[2]
-        if len(args) > 3:
-            self.x = args[3]
-        if len(args) > 4:
-            self.y = args[4]
+            if len(args) > 0:
+                self.id = args[0]
+            if len(args) > 1:
+                self.width = args[1]
+            if len(args) > 2:
+                self.height = args[2]
+            if len(args) > 3:
+                self.x = args[3]
+            if len(args) > 4:
+                self.y = args[4]
+        else:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
 
     def __str__(self):
         """canonical string representation of object Rectangle"""
