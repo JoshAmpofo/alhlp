@@ -94,6 +94,29 @@ class Rectangle(Base):
             [print("#", end="") for w in range(self.width)]
             print("")
 
+    def update(self, *args):
+        """Updates the Rectangle
+
+        Args:
+            args (int): aggregates and displays all arguments given to func
+            1st arg (int): id attribute
+            2nd arg (int): width attribute
+            3rd arg (int): height attribute
+            4th arg (int): x attribute
+            5th arg (int): y attribute
+        This is a no-keyword-argument where argument order is important
+        """
+        if args:
+            self.id = args[0]
+        if len(args) > 1:
+            self.width = args[1]
+        if len(args) > 2:
+            self.height = args[2]
+        if len(args) > 3:
+            self.x = args[3]
+        if len(args) > 4:
+            self.y = args[4]
+
     def __str__(self):
         """canonical string representation of object Rectangle"""
         return "[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}".format(self.id,
