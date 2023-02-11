@@ -6,7 +6,7 @@ from models.rectangle import Rectangle
 class Square(Rectangle):
     """Defines a Square"""
     def __init__(self, size, x=0, y=0, id=None):
-        """initialize Square and its associated properties
+        """initialize Square and its associated propertie
 
         Args:
             size (int): size of Square
@@ -39,7 +39,7 @@ class Square(Rectangle):
             2nd arg (int): size attribute of Square
             3rd arg (int): x attribute of Square
             4th arg (int): y attribute of Square
-            **kwargs (dict): New key/value arguments
+            **kwargs (dict): New key/value argument
         """
         if args:
             if len(args) > 0:
@@ -53,6 +53,11 @@ class Square(Rectangle):
         else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
+
+    def to_dictionary(self):
+        """Return dict representation of Square"""
+        return {"id": self.id, "size": self.size,
+                "x": self.x, "y": self.y}
 
     def __str__(self):
         """informal string representation of objects in Square"""
