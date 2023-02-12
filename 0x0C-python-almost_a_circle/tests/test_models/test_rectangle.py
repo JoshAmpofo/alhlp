@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Unittest cases for models/rectangle.py.
 Unittest classes:
-    TestRectangle_instantiation - line 23
+    TestRectangle - line 23
     TestRectangle_width - line 112
     TestRectangle_height - line 188
     TestRectangle_x - line 260
@@ -20,7 +20,7 @@ from models.base import Base
 from models.rectangle import Rectangle
 
 
-class TestRectangle_instantiation(unittest.TestCase):
+class TestRectangle(unittest.TestCase):
     """Unittests for testing instantiation of the Rectangle class."""
 
     def test_rectangle_is_base(self):
