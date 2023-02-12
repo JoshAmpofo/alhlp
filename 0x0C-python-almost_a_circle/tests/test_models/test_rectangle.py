@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Unittest cases for models/rectangle.py.
+"""Unittest cases for rectangle.py.
 Unittest classes:
     TestRectangle - line 23
     TestRectangle_width - line 112
