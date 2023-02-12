@@ -11,7 +11,7 @@ Unittest classes:
     TestRectangle_stdout - line 451
     TestRectangle_update_args - line 450
     TestRectangle_update_kwargs - line 535
-    TestRectangle_to_dictionary - line 784 (yet to do this)
+    TestRectangle_to_dictionary - line 784
 """
 import io
 import sys
