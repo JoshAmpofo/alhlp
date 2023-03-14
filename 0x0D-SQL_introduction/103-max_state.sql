@@ -2,5 +2,5 @@
 -- Results will be ordered by state name
 
 
-SELECT `State`, MAX(`value`) AS `max_temp` FROM `temperatures`
-GROUP BY `State` ORDER BY `STATE` ASC;
+SELECT `state`, MAX(`value`) AS `max_temp` FROM `temperatures`
+GROUP BY `state` ORDER BY `state` ASC;
