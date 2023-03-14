@@ -1,6 +1,6 @@
-# Introduction to Structured Query Language
+# Introduction to Structured Query Language :database:
 
-## Learning Objectives :academic cap:
+## Learning Objectives
 
 - What’s a database
 - What’s a relational database
