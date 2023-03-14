@@ -1,4 +1,4 @@
-# Introduction to Structured Query Language :database:
+# Introduction to Structured Query Language
 
 ## Learning Objectives
 
