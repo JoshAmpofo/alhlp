@@ -6,8 +6,15 @@
   Not allowed to use if/else. Only a loop (while, for, etc)
 */
 
-const array = ['C is fun', 'Python is cool', 'Javascript is amazing'];
+// my solution 2 and counting
+// const array = ['C is fun', 'Python is cool', 'Javascript is amazing'];
 
-for (let i = 0; i < array.length; i++) {
-  console.log(array[i]);
+// for (let i = 0; i < array.length; i++) {
+//  console.log(array[i]);
+// }
+
+// checker solution
+
+for (const array of ['C is fun', 'Python is cool', 'Javascript is amazing']) {
+  console.log(array);
 }
