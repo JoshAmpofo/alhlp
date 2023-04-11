@@ -23,3 +23,5 @@ JavaScript is a scripting or programming language that allows implementation of 
 ## Resources :books:
 - [Introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)
 - [JavaScript cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet)
+
+[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/standard/semistandard)
