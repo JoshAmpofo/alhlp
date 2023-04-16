@@ -37,8 +37,8 @@ if __name__ == '__main__':
         print("Error executing MYSQL query: {}".format(e))
         sys.exit(1)
     # print results
-    vdisp = list(row[0] for row in rows)
-    print(*vdisp, sep=", ")
+    hdisp = list(row[0] for row in rows)
+    print(*hdisp, sep=", ")
     # clean up
     cur.close()
     db.close()
