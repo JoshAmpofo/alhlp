@@ -23,8 +23,8 @@ if __name__ == '__main__':
 
     # execute search query
     try:
-        cur.execute("SELECT * FROM states WHERE name LIKE 'N%'\
-                    ORDER BY states.id ASC")
+        cur.execute("""SELECT * FROM states WHERE name LIKE 'N%'
+                    ORDER BY states.id ASC""")
         states = cur.fetchall()
     except MySQLdb.Error as e:
         print(f"MySQLdb Error {e.args[0]}: {e.args[1]}")
