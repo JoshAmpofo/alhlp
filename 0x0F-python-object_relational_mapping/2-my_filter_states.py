@@ -29,8 +29,8 @@ if __name__ == '__main__':
 
     # Execute query search
     try:
-        cur.execute("""SELECT * FROM states WHERE name LIKE BINARY %s
-                    ORDER BY id""", (state_name_searched,))
+        cur.execute("""SELECT * FROM states WHERE name LIKE BINARY '{}'
+                    ORDER BY id""".format(state_name_searched))
         rows = cur.fetchall()
     except MySQLdb.Error as e:
         print("Error executing query {e}")
